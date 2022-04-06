@@ -1,0 +1,278 @@
+  @media print {
+      @page {
+          /* landscape */
+          size: A4;
+      }
+      body {
+          zoom: 100%;
+      }
+  }
+  
+  #container1 {
+      min-height: auto;
+      /*200px; */
+  }
+  
+  #wrap-left {
+      width: 52.5%;
+      height: auto;
+      /* border: 1px solid #CDCDCD; */
+      float: left;
+      margin-bottom: 5px;
+  }
+  
+  #wrap-left2 {
+      width: 52.5%;
+      /* border: 1px solid #CDCDCD; */
+      float: left;
+      margin-bottom: 5px;
+  }
+  
+  #wrap-right {
+      width: 47%;
+      height: auto;
+      /* border: 1px solid #CDCDCD; */
+      float: right;
+      margin-bottom: 5px;
+  }
+  
+  #wrap-right2 {
+      width: 47%;
+      /* border: 1px solid #CDCDCD; */
+      float: right;
+      margin-bottom: 5px;
+  }
+  
+  table {
+      border-collapse: collapse;
+      width: 99%;
+      font-size: 13px;
+  }
+  
+  th,
+  td {
+      text-align: left;
+      padding: 4px;
+  }
+  /* even: chan - tinh luon dong 0 */
+  
+  tr {
+      height: 34px;
+  }
+  
+  tr:nth-child(odd) {
+      background-color: #f2f2f2
+  }
+  
+  tr:hover {
+      background-color: #f5f5f5;
+  }
+  
+  th {
+      /* title */
+      background-color: #66ff99;
+  }
+  /* tr { height:45px;} */
+  
+  #p-top {
+      height: 40px;
+      color: red;
+      background-color: #66ffcc;
+      font: bold 18px center;
+      text-align: center;
+      padding-top: 1px;
+  }
+  
+  .material-des0 {
+      text-align: center;
+      font-size: 12px;
+      width: auto;
+      border: 0.1px solid #99ccff;
+      height: 20px;
+  }
+  
+  .material-cbs-des0 {
+      text-align: center;
+      font-size: 12px;
+      width: auto;
+      border: 0.1px solid #99ccff;
+      height: 20px;
+  }
+  
+  .material-des {
+      text-align: left;
+      font-size: 9px;
+      width: auto;
+      border: 0.1px solid #99ccff;
+      height: 37px;
+  }
+  
+  .material-code0 {
+      width: 100px;
+      text-align: center;
+      font-size: 12px;
+      border: 0.1px solid #99ccff;
+      height: 20px;
+  }
+  
+  .material-cbs-code0 {
+      width: 120px;
+      text-align: center;
+      font-size: 12px;
+      border: 0.1px solid #99ccff;
+      height: 20px;
+  }
+  
+  .material-code {
+      width: 80px;
+      text-align: center;
+      font-size: 10px;
+      border: 0.1px solid #99ccff;
+      height: 37px;
+  }
+  
+  .material-qty0 {
+      width: 50px;
+      text-align: center;
+      font-size: 12px;
+      border: 0.1px solid #99ccff;
+      height: 20px;
+  }
+  
+  .material-qty {
+      width: 40px;
+      text-align: center;
+      font-size: 11px;
+      border: 0.1px solid #99ccff;
+      height: 40px;
+  }
+  
+  .material-unit0 {
+      width: 15px;
+      text-align: center;
+      font-size: 12px;
+      border: 0.1px solid #99ccff;
+      height: 40px;
+  }
+  
+  .material-unit {
+      width: 15px;
+      text-align: center;
+      font-size: 10px;
+      border: 0.1px solid #99ccff;
+      height: 40px;
+  }
+  
+  .size {
+      text-align: center;
+      font-size: 9px;
+      width: 14;
+      border: 0.1px solid #99ccff;
+      height: 40px;
+  }
+  
+  .size0 {
+      text-align: left;
+      font-size: 9px;
+      width: 14;
+      border: 0.1px solid #99ccff;
+      height: 35px;
+  }
+  
+  .label-item {
+      width: 100px;
+      text-align: left;
+      font-size: 9px;
+      border: 0.1px solid #99ccff;
+      height: 40px;
+  }
+  
+  .label-item0 {
+      width: 100px;
+      text-align: center;
+      font-size: 9px;
+      border: 0.1px solid #99ccff;
+      height: 20px;
+  }
+  
+  .base-roll {
+      width: 110px;
+      text-align: center;
+      font-size: 9px;
+      border: 0.1px solid #99ccff;
+      height: 40px;
+  }
+  
+  .base-roll0 {
+      width: 70px;
+      text-align: center;
+      font-size: 10px;
+      border: 0.1px solid #99ccff;
+      height: 20px;
+  }
+  /* Nổi bật WOLDON */
+  
+  .speech-worldon {
+      position: relative;
+      background-color: #e6ffff;
+      height: 20px;
+      padding: 0px;
+      /* line-height: 10px;  */
+      color: red;
+      font-weight: bold;
+      font-size: 28px;
+      /* border-radius: 5px;
+    border: 5px; */
+  }
+  
+  .txtdeepshadow {
+      text-align: center;
+      font-family: "Avant Garde", Avantgarde, "Century Gothic", CenturyGothic, "AppleGothic", sans-serif;
+      font-size: 50px;
+      height: 60px;
+      /* width: 100px; */
+      padding-top: 5px;
+      color: #e0dfdc;
+      /* background-color: #333; */
+      letter-spacing: .1em;
+      text-shadow: 0 1px 0 #fff, 0 1px 0 #2e2e2e, 0 2px 0 #2c2c2c, 0 3px 0 #2a2a2a, 0 4px 0 #282828, 0 5px 0 #262626, 0 6px 0 #242424, 0 7px 0 #222, 0 8px 0 #202020, 0 9px 0 #1e1e1e, 0 10px 0 #1c1c1c, 0 11px 0 #1a1a1a, 0 12px 0 #181818, 0 13px 0 #161616, 0 14px 0 #141414, 0 15px 0 #121212, 0 22px 30px rgba(0, 0, 0, 0.9);
+  }
+  
+  .DEC029 {
+      text-align: center;
+      font-family: "Avant Garde", Avantgarde, "Century Gothic", CenturyGothic, "AppleGothic", sans-serif;
+      font-size: 45px;
+      font-weight: bolder;
+      height: 50px;
+      width: 70%;
+      padding-top: 1px;
+      color: #ffffff;
+      background-color: #333;
+      border: #141414 solid 1px;
+  }
+  
+  .puma-na {
+      /* position: relative; */
+      background-color: #e6ffff;
+      height: 25px;
+      margin: 5px;
+      padding-top: 5px;
+      /* line-height: 10px;  */
+      color: red;
+      font-weight: bold;
+      font-size: 16px;
+  }
+  
+  .fru-ic-lh {
+      background-color: black;
+      color: white;
+      height: 35px;
+      margin: 5px;
+      padding-top: 6px;
+      font-weight: bold;
+      font-size: 28px;
+  }
+
+  .large-remark{
+    width:100%;text-align:center;font-size:22px;color:red; margin:5px 0; padding:7px 0;box-sizing:border-box;border:1px solid red;
+  }

@@ -1,0 +1,198 @@
+@media print {
+    @page {
+        /* định dạng trang ngang */
+        size: A4 landscape;
+    }
+    body {
+        zoom: 100%;
+    }
+}
+
+#container1 {
+    min-height: 200px;
+}
+
+table {
+    border-collapse: collapse;
+    width: 99%;
+    font-size: 13px;
+}
+
+th,
+td {
+    text-align: center;
+    padding: 4px;
+}
+
+td {
+    font-size: 12px;
+    text-align: left;
+    padding: 4px;
+}
+
+tr {
+    height: 30px;
+}
+
+
+/* even: chan - tinh luon dong 0. odd: le*/
+
+tr:nth-child(odd) {
+    background-color: #f2f2f2
+}
+
+tr:hover {
+    background-color: #f5f5f5;
+}
+
+th {
+    /* title */
+    /*66ff99  */
+    background-color: #66ff99;
+}
+
+
+/* tr { height:45px;} */
+
+#p-top {
+    height: 40px;
+    color: red;
+    /* 66ffcc 00cc99 */
+    background-color: #66ffcc;
+    font: bold 16px center;
+    text-align: center;
+    padding-top: 0.5px;
+}
+
+
+/* @ */
+
+.Col0 {
+    font-weight: bold;
+    font-size: 13px;
+    border: 1px solid #99ccff;
+    text-align: center;
+    height: 25px;
+}
+
+.Col00 {
+    font-weight: bold;
+    font-size: 13px;
+    border: 1px solid #99ccff;
+    text-align: center;
+    height: 25px;
+}
+
+.Col {
+    /* 99ccff 0000cc */
+    border: 1px solid #99ccff;
+    text-align: center;
+    font-size: 12px;
+    height: 20px;
+}
+
+.Col-1 {
+    width: 30px;
+}
+
+.Col-11 {
+    width: 50px;
+}
+
+.Col-2 {
+    width: 11%;
+}
+
+.Col-22 {
+    width: 11%;
+}
+
+.Col-3 {
+    width: 13%;
+}
+
+.Col-33 {
+    width: 13%;
+}
+
+.Col-4 {
+    width: 8%;
+}
+
+.Col-44 {
+    width: 15%;
+}
+
+.Col-5 {
+    width: 15%;
+}
+
+.Col-7 {
+    width: 15%;
+}
+
+
+/* 
+
+.Col-55 {
+    width: 15%;
+}
+
+.Col-6 {
+    width: 10%;
+}
+
+.Col-66 {
+    width: 12%;
+}
+
+.Col-7 {
+    width: 18%;
+}
+
+.Col-7 {
+    width: auto;
+}
+
+.Col-8 {
+    width: 15%;
+} */
+
+
+/* header */
+
+.header-0 {
+    font-size: 13px;
+}
+
+.header {
+    font-weight: bold;
+    color: red;
+    font-size: 14px;
+}
+
+.case-label {
+    position: relative;
+    left: 300px;
+    background-color: #e6ffff;
+    width: 300px;
+    height: 35px;
+    padding: 9px;
+    /* line-height: 10px;  */
+    color: red;
+    text-align: center;
+    font-weight: bold;
+    font-size: 35px;
+    border-radius: 10px;
+}
+
+.speech-worldon {
+    position: relative;
+    background-color: #e6ffff;
+    /* height: 20px; */
+    padding: 0px;
+    color: red;
+    font-weight: bold;
+    font-size: 20px;
+    /* border-radius: 5px; border: 5px; */
+}

@@ -1,0 +1,11 @@
+$data = '
+{
+	"data_formNO":[{"PO_COUNT_SO_LINE": "0","PO_CS": "Le, Til","PO_FORM_TYPE": "cbs","PO_GPM": "","PO_INK_CODE": "10F000137-MT","PO_INK_DES": "Monarch Core Black 500met/roll","PO_INK_QTY": 41,"PO_INK_REMARK": "","PO_INTERNAL_ITEM": "1-130499-000-00","PO_LABEL_SIZE": "25.4 mm x 76.1 mm","PO_MAIN_SAMPLE_LINE": "","PO_MATERIAL_CODE": "4-218765-115-00","PO_MATERIAL_DES": "MARKS &amp; SPENCER.PMS 115C M&amp;S SF RFID label w/ ....4800.14400..","PO_MATERIAL_QTY": 1045,"PO_MATERIAL_REMARK": "sd het 4-215453-color-00 chuyen sang 4-218765-color-00","PO_NO": "RF1909-00001","PO_ORDERED_DATE": "14-Jun-19","PO_ORDER_ITEM": "UPC-W03535RF","PO_PROMISE_DATE": "24-Jun-19","PO_QTY": 1030,"PO_RBO": "MARKS &amp; SPENCER","PO_REQUEST_DATE": "24-Jun-19","PO_SAMPLE": "1","PO_SAMPLE_15PCS": "","PO_SAVE_DATE": "21-Sep-19","PO_SHIP_TO_CUSTOMER": "HAN-SOLL TEXTILE LTD","PO_SO_LINE": "32741416-1"}],
+	"data_GridSO":[{"PO_NO": "RF1909-00001", "SO_LINE": "35556808-1"}],
+	"data_ink":[{"PO_NO": "RF1909-00001", "SO_LINE": "35556808-1", "INK_CODE": "10D013045-MT", "INK_QTY": "52", "INK_DES": "GN1111 (AR3)/APR600 (90mm x 500meters) 1.125P TTR Ink 12rolls"}],
+	"data_material_no_cbs":[{"PO_NO": "RF1909-00001", "SO_LINE": "35556808-1", "MATERIAL_CODE": "4-221008-238-00", "MATERIAL_QTY": "1131", "MATERIAL_DES": "CAMAIEU FEMME.CAM-RFIDTAG1-  for SB"}]
+}';
+
+
+date_default_timezone_set('Asia/Ho_Chi_Minh'); ini_set('max_execution_time',300);
+header("Content-Type: application/json; charset=utf-8");

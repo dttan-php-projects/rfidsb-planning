@@ -1,0 +1,31 @@
+
+TẤT CẢ CÁC FORM ĐỀU LẤY SỐ LƯỢNG VẬT TƯ LÀM TRÒN TĂNG LÊN TRƯỚC RỒI MỚI TÍNH SỐ LƯỢNG MỰC VÀ LÀM TRÒN TĂNG LÊN.
+
+1. Đối với form pvh
+	- Số lượng vật tư tính theo: = (QTY + (QTY x 1.4)/1000 )
+	- Số lượng mực tính theo:  
+		+ Nếu là mực Muc Kiaro D: = 0
+		+ Trường hợp còn lại:  = (SL vật tư * chiều dài x 1.014)/1000
+
+2. Đối với form ua_cbs, cbs
+	- Số lượng vật tư tính theo: = (QTY x scrap )
+	- Số lượng mực tính theo:  
+		+ Nếu là mực Muc Kiaro D: = 0
+		+ Trường hợp còn lại:  = [SL vật tư * (chiều dài + số GAP)/1000]
+
+
+3. Đối với form ua_no_cbs, rfid
+	- Số lượng vật tư tính theo:
+		+ Nếu INTERNAL ITEM = CB1627627 hoặc 1-215877-000-00 hoặc là sample 15 PCS: = ((QTY +15)* số scrap)
+		+ Trường hợp còn lại: = (QTY x scrap )
+	- Số lượng mực in: 
+		+ Nếu là mực Muc Kiaro D: = 0
+		+ Nếu GHI CHÚ ITEM là NHAN CHAY 2 MAT MUC IN: 	= [(SL vật tư * (chiều dài + số GAP)/1000) x 2 ]
+		+ Nếu GHI CHÚ ITEM là NHAN IN 2 MAT MUC hoặc trường hợp còn lại : = [(SL Vật tư  * (chiều dài + số GAP)/1000)]
+
+4. Đối với trim, macy: Trường hợp này số GAP = 0, số scrap = 1.4
+	- Số lượng vật tư tính theo: = ( QTY + (QTY * 1.4)/100 )
+	- Số lượng mực in:  
+		+ Nếu là code vật tư 4-218393-236-00, 4-219667-236-00, 4-219667-236-01, 5-603057-236-00:  = ( (QTY * chiều dài * 1.014)/1000 ) * 2
+		+ Nếu là internal item: 4-232729-000-00, 4-232631-000-00:  = ( (QTY * chiều dài * 1.014)/1000 ) * 2
+		+ Trường hợp còn lại: = ( (QTY * chiều dài * 1.014)/1000 )

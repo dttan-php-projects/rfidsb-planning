@@ -1,0 +1,178 @@
+[
+    { id: "Logo", text: "<img style='width:60px;' src='./assets/images/Logo.PNG'/>" },
+    { id: "sep_top_1", type: "separator" },
+    {
+        id: "GPD",
+        text: "GPD",
+        items: []
+    },
+    { id: "sep_top_2", type: "separator" },
+    {
+        id: "Production",
+        text: "Production",
+        items: [
+            // {id: "OrderTracking", text: "Order Tracking", img: "App.png", imgdis: "App.png"},
+            { id: "OrderTrackingNew", text: "Order Tracking New Version", img: "close.gif", imgdis: "App.png", items: [] },
+            { id: "OrderTracking", text: "Order Tracking For Operations", img: "App.png", imgdis: "App.png" },
+            { id: "SOStatus", text: "SO Status", img: "App.png", imgdis: "App.png" },
+            { id: "IDScan", text: "ID Scan", img: "App.png", imgdis: "App.png" }
+        ]
+    },
+    { id: "sep_top_3", type: "separator" },
+    {
+        id: "Planning",
+        text: "Planning",
+        items: [
+            { id: "OracleTable", text: "Oracle Table", img: "App.png", imgdis: "App.png" },
+            {
+                id: "PPC",
+                text: "P&C",
+                img: "App.png",
+                imgdis: "App.png",
+                items: [
+                    { id: "CustomerTracking", text: "Customer Tracking", img: "App.png", imgdis: "App.png" },
+                    { id: "WIPManagement", text: "P&C Address System", img: "App.png", imgdis: "App.png" },
+                    { id: "OrderReceiving", text: "Order Receiving", img: "App.png", imgdis: "App.png" },
+                    { id: "ItemMaster", text: "Item Master", img: "App.png", imgdis: "App.png" },
+                    { id: "CreateJob", text: "Create Job", img: "App.png", imgdis: "App.png" },
+                    { id: "ProductionRecord", text: "Production Record", img: "App.png", imgdis: "App.png" },
+                    { id: "FGSDetailData", text: "FGS Detail Data", img: "App.png", imgdis: "App.png" },
+                    { id: "FGSData", text: "FGS Data", img: "App.png", imgdis: "App.png" },
+                    { id: "ExportData", text: "Data", img: "App.png", imgdis: "App.png" },
+                    {
+                        id: "Report",
+                        text: "Report",
+                        img: "App.png",
+                        imgdis: "App.png",
+                        items: [
+                            { id: "PrintingSchedule", text: "Printing Schedule", img: "App.png", imgdis: "App.png" },
+                            { id: "DiecuttingSchedule", text: "Diecutting Schedule", img: "App.png", imgdis: "App.png" },
+                            { id: "OffsetSchedule", text: "Offset Schedule", img: "App.png", imgdis: "App.png" },
+                            { id: "DigitalSchedule", text: "Digital Schedule", img: "App.png", imgdis: "App.png" },
+                            { id: "ExportItemList", text: "Item List", img: "App.png", imgdis: "App.png" }
+                        ]
+                    }
+                ]
+            },
+            {
+                id: "PFL",
+                text: "PFL",
+                img: "App.png",
+                imgdis: "App.png",
+                items: [
+                    { id: "PFLProductionRecord", text: "Production Record", img: "App.png", imgdis: "App.png" },
+                    { id: "PFLOrderTracking", text: "Order Tracking", img: "App.png", imgdis: "App.png" },
+                    { id: "PFLSummaryOrder", text: "Summary Order", img: "App.png", imgdis: "App.png" },
+                    { id: "PFLSearchOldOther", text: "Search Order Old", img: "App.png", imgdis: "App.png" },
+                    {
+                        id: "ExportPFL",
+                        text: "Export Report",
+                        img: "App.png",
+                        imgdis: "App.png",
+                        items: [
+                            { id: "PFLReportOrder2", text: "Order Receving D-2", img: "App.png", imgdis: "App.png" }
+                        ]
+                    }
+                ]
+            },
+            {
+                id: "Woven",
+                text: "Woven",
+                img: "App.png",
+                imgdis: "App.png",
+                items: [
+                    { id: "WovenPlanScrap", text: "Plan Scrap", img: "App.png", imgdis: "App.png" },
+                    { id: "MaterialTracking", text: "Material Tracking", img: "App.png", imgdis: "App.png" }
+                ]
+            },
+            { id: "Artwork", text: "Artwork Search", img: "App.png", imgdis: "App.png" },
+            {
+                id: "IBR",
+                text: "IBR",
+                img: "App.png",
+                imgdis: "App.png",
+                items: [
+                    { id: "IBRRequest", text: "IBR Request", img: "App.png", imgdis: "App.png" },
+                    { id: "IBRManagement", text: "IBR Management", img: "App.png", imgdis: "App.png" }
+                ]
+            },
+        ]
+    },
+    { id: "sep_top_4", type: "separator" },
+    {
+        id: "TQ",
+        text: "TQ",
+        items: [
+
+        ]
+    },
+    { id: "sep_top_5", type: "separator" },
+    {
+        id: "Technical",
+        text: "Technical",
+        items: [{
+            id: "PE",
+            text: "PE",
+            img: "App.png",
+            imgdis: "App.png",
+            items: [
+                { id: "ItemMaintain", text: "Item Maintain", img: "App.png", imgdis: "App.png" },
+                { id: "AccessoryMaterial", text: "Accessory Material", img: "App.png", imgdis: "App.png" },
+                { id: "InventoryList", text: "Inventory List", img: "App.png", imgdis: "App.png" },
+                { id: "CheckSO", text: "Check SO Line", img: "App.png", imgdis: "App.png" },
+                { id: "ExportItemList2", text: "Export Item List", img: "App.png", imgdis: "App.png" }
+            ]
+        }]
+    },
+    { id: "sep_top_6", type: "separator" },
+    {
+        id: "Purchasing",
+        text: "Purchasing",
+        items: [
+
+        ]
+    },
+    { id: "sep_top_7", type: "separator" },
+    {
+        id: "HR",
+        text: "HR",
+        items: [
+            { id: "LiberyBook", text: "Libery Book", img: "App.png", imgdis: "App.png" },
+        ]
+    },
+    { id: "sep_top_8", type: "separator" },
+    {
+        id: "CS",
+        text: "CS",
+        items: [
+            { id: "DeliveryNote", text: "Delivery Note", img: "App.png", imgdis: "App.png" },
+            { id: "SaleOrder", text: "Sale Order Search", img: "App.png", imgdis: "App.png" }
+        ]
+    },
+    { id: "sep_top_9", type: "separator" },
+    {
+        id: "Admin",
+        text: "Admin",
+        items: [
+            { id: "HB", text: "HB", img: "App.png", imgdis: "App.png" },
+        ]
+    },
+    { id: "sep_top_10", type: "separator" },
+    {
+        id: "Monitoring",
+        text: "Monitoring",
+        items: [
+            { id: "DeliveryNoteMonitoring", text: "Delivery Note Monitoring", img: "App.png", imgdis: "App.png" },
+            { id: "WIPMonitoring", text: "P&C Address Monitoring", img: "App.png", imgdis: "App.png" },
+        ]
+    },
+    {
+        id: "Warehouse",
+        text: "Warehouse",
+        items: [
+            { id: "WHScanOut", text: "Scan Out", img: "App.png", imgdis: "App.png" },
+            { id: "WHExitPass", text: "Phiếu xuất kho", img: "App.png", imgdis: "App.png" },
+            { id: "DE_CS", text: "DE CS", img: "App.png", imgdis: "App.png" },
+        ]
+    },
+]
